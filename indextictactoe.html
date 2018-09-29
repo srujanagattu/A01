@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>TicTacToe</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+  <link rel="stylesheet" href="./game.css">
+  
+</head>
+
+
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+				 aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					
+				</button>
+				<a class="navbar-brand" href="index.html">Introduction</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="Contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav><br><br>
+<header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+  <main>
+    <span class="box" id="upper-left"></span>
+    <div class="box" id="upper-mid"> </div>
+    <div class="box" id="upper-right"> </div>
+
+    <div class="box" id="center-left"> </div>
+    <div class="box" id="center-mid"> </div>
+    <div class="box" id="center-right"> </div>
+
+    <div class="box" id="lower-left"> </div>
+    <div class="box" id="lower-mid"> </div>
+    <div class="box" id="lower-right"> </div>
+  </main>
+  <aside>
+    
+    <div>
+        <h2>Specification</h2>
+        <div class="box">
+      <ul>
+        <li>Uses full-width header and footer.</li>
+        <li>Uses main 3 x 3 css grid, each with a section.</li>
+        <li>When user clicks a childless section, it adds an X.</li>
+        <li>If the move was valid, it selects a section for the computer and adds an O.</li>
+      </ul>
+      <ol>
+        <li>Improve the computer's selection algorithm.</li>
+        <li>Add an algorithm to check for a winner.</li>
+        <li>If winner, announce the winner and end the game.</li>
+        <li>Add "Play again?" button to clear the board.</li>
+        <li>Combine AddX and AddO into a single function.</li>
+      </ol>
+    </div>
+    </div>
+  </aside>
+  <footer>
+    <h4>
+      <span>&copy; Professor Case 2018</span>
+      <span>&diams;</span>
+      <a href="https://github.com/profcase/web-tic-tac-toe">Source</a>
+      <span>&diams;</span>
+      <a href="https://profcase.github.io/web-tic-tac-toe/">Demo</a>
+    </h4>
+
+  </footer>
+  <script src="./game.js" defer></script>
+
+</body>
+
+</html>
