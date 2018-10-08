@@ -6,7 +6,6 @@
 html {
   display: block;
 }
-
 body {
   margin: 1em;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,9 +25,9 @@ main {
 }
 
 .box {
-  background-color: #006747;
+  background-color: #675d00;
   color: #fff;
-  border-radius: 0.5em;
+  border-radius: 1em;
   padding: 1em;
   margin: 0.5em;
   font-size: 1em;
@@ -48,3 +47,36 @@ li {
 a {
   text-decoration: none;
 }
+a.navbar-brand {
+  color: #fff !important;
+  margin-right: 0%;
+}
+
+
+a.nav-link {
+  color: #fff !important;
+}
+.navbar-expand-lg .navbar-nav{
+  padding: 0;
+}
+header {
+  margin-top: 61px;
+}
+
+
+div#winnerDisplay {
+  background-color: gray;
+  width: 30%;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border: 1px ridge black;;
+  border-radius: 20px;
+}
+.playbutton {
+  width: 90px;
+  margin-left:45%;
+}
+
+
